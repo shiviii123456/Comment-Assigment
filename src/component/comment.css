@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+body{
+    background: #e8e8e8;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 100px auto;
+    font-family: "Inter";
+    padding: 10px 20px;
+    background: white;
+}
+.line{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.block-header{
+    display: flex;
+    align-items: center;
+}
+.tag{
+    background: #0085ff;
+    padding: 5px;
+    font-size: 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+.writing{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px 0px;
+    border: 0.5px solid #e8e8e8;
+    padding: 5px;
+}
+.input-text{
+    margin: 10px 0px;
+    padding: 15px 10px;
+    color: black;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.input-text::placeholder{
+    color: black;
+}
+.input-text:focus::placeholder {
+    color: transparent;
+}
+.btn__main{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    max-width: 64px;
+    padding: 8px 12px;
+    height: 40px;
+    color: #fff;
+    display: inline-flex;
+    background: #0085ff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user h5{
+    margin-left: 10px;
+}
+.avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(217, 215, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border: 0.5px solid #e8e8e8;
+    margin-top: 2px;
+}
+
+.btn_combine{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.tags_combine{
+    display: flex;
+    margin: 10px;
+}
+
+.tagbtn_combine{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tag_container{
+    display: flex;
+}
+
+.tag-btn{
+    background-color: #0085ff;
+    color: white;
+    border-radius: 10px;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    font-size: 10px;
+    padding: 5px;
+}
